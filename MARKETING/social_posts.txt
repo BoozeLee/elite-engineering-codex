@@ -1,0 +1,45 @@
+═══ X / TWITTER POST (Thread) ═══
+Post 1:
+I'm tired of seeing devs code for free while others scale to $10k MRR. 
+
+I just launched the ⬡ ELITE ENGINEERING CODEX. 
+A framework to turn your GitHub into a monetization flywheel.
+
+Thread on how it works... 🧵
+
+Post 2:
+The stack:
+- Gemini 2.5 Pro reasoning
+- Automated README auditing
+- Sponsor-gated CLI tools
+- Marketplace-ready actions
+
+Zero desktop required. Engineered on Android, deployed to the world.
+
+Post 3:
+I'm opening up the PRO tier today. 
+Early supporters get access to my private Prompt Library and enterprise SLA templates.
+
+Join the mission: https://github.com/sponsors/BoozeLee
+
+Post 4:
+Check the live TUI-aesthetic docs here:
+https://BoozeLee.github.io/elite-engineering-codex/
+
+Stop coding. Start engineering revenue. ⬡ #EliteCodex #GitHubSponsors #BuildInPublic
+
+═══ LINKEDIN POST ═══
+Headline: Beyond Open Source: Engineering for Revenue in the AI Era
+
+Open source is the foundation, but sustainable engineering requires a monetization layer. 
+
+Today I'm releasing the Elite Engineering Codex—an operational architecture for developers who want to scale their value. 
+
+What's inside:
+✅ Automated Monetization Auditing
+✅ Gemini-Pro Prompt Engineering Framework
+✅ Tiered Sponsorship Architecture
+
+Join the elite: https://github.com/BoozeLee/elite-engineering-codex
+
+#SoftwareEngineering #GitHub #Monetization #AI #Gemini

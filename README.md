@@ -1,38 +1,40 @@
 # ⬡ ELITE ENGINEERING CODEX
 
-> **GitHub Monetization · Post-Gemini Prompt Engineering · Android TUI Architecture**
+[![Sponsor](https://img.shields.io/badge/Sponsor-BoozeLee-ff69b4?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/BoozeLee)
+[![Marketplace](https://img.shields.io/badge/Marketplace-Action-green?style=for-the-badge&logo=github)](https://github.com/marketplace)
 
-This repository contains the operational source for the [Elite Engineering Codex](https://BoozeLee.github.io/elite-engineering-codex/), a layered framework for developers who want to scale their value and revenue in the AI era.
+> **"Stop coding for free. Start engineering for revenue."**
 
-## ⚡ QUICK START
-
-- **Live Codex:** [BoozeLee.github.io/elite-engineering-codex/](https://BoozeLee.github.io/elite-engineering-codex/)
-- **Core Strategy:** Move from linear coding to context-graph engineering.
-- **Monetization:** Engineered flywheels for GitHub Sponsors and Product-Led Growth.
+The **Elite Engineering Codex** is a battle-hardened framework for developers who want to scale their value and revenue in the AI era. This isn't just a repo; it's a **monetization flywheel**.
 
 ---
 
-## ◈ THE INTEGRATED LOOP
+## ⚡ WHY SPONSOR THE CODEX?
 
-1. **WRITE:** Neovim + Gemini LSP for high-velocity creation.
-2. **ENHANCE:** Multi-modal reasoning via Gemini 2.5 Pro.
-3. **COMMIT:** Conventional commits + `gh` CLI automation.
-4. **MONETIZE:** Sponsor-gated value and enterprise licensing.
+Individual developers are making thousands by shipping value, not just code. The Codex gives you the tools to do exactly that.
 
----
-
-## ◉ SUPPORT THE MISSION
-
-If this codex helps you build better or earn more, consider supporting the work:
-
-- **[Sponsor on GitHub](https://github.com/sponsors/BoozeLee)** — Access private repos and premium prompt templates.
-- **[Buy Me a Coffee](https://ko-fi.com/BoozeLee)** — Keep the lab running.
+### ◉ [SPONSOR NOW TO UNLOCK PRO](https://github.com/sponsors/BoozeLee)
+- **$5/mo:** Your name on the Hall of Fame + Supporter Discord.
+- **$25/mo:** Access to the **Elite Prompt Library** (Gemini 2.5 Pro optimized).
+- **$100/mo:** Enterprise License + 1-on-1 Architecture Consultation.
 
 ---
 
-## ⚖️ LICENSE
+## ◈ THE STACK
+- **Logic:** Gemini-pro context-graph reasoning.
+- **Automation:** GitHub Action Auditor (Marketplace ready).
+- **Interface:** Android TUI + Arch Linux CLI.
 
-This project is dual-licensed under the [MIT License](LICENSE) and a Commercial License for enterprise use. See the [Codex](https://BoozeLee.github.io/elite-engineering-codex/) for details on enterprise SLA tiers.
+---
+
+## 🏛️ ENTERPRISE & CONSULTING
+Need this architecture integrated into your proprietary workflow? 
+**[Book a Consultation](https://BoozeLee.github.io/elite-engineering-codex/)**
+
+---
+
+### ◈ HALL OF FAME (SPONSORS)
+*Sponsorships keep the lab running. Support the mission today.*
 
 ---
 
