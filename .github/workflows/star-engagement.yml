@@ -1,0 +1,17 @@
+name: ⬡ Star Engagement
+
+on:
+  watch:
+    types: [started]
+
+jobs:
+  acknowledge-star:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Thank Stargazer
+        run: |
+          echo "◈ NEW ELITE RECRUIT DETECTED"
+          echo "User: ${{ github.event.sender.login }}"
+          echo "Action: Pushing star-to-sponsor conversion logic..."
+          # This logs to the Action output, which is visible to the user.
+          # To truly engage, we could have it open an automated 'Welcome' discussion.
