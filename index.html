@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Elite Engineering Codex: GitHub Monetization, Android TUI, Post-Gemini Prompts">
+<meta property="og:title" content="Elite Engineering Codex">
+<meta property="og:description" content="GitHub Monetization · Android TUI · Gemini Prompt Engineering">
+<meta property="og:url" content="https://BoozeLee.github.io/elite-engineering-codex/">
+<title>ELITE ENGINEERING CODEX — BoozeLee</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--g:#00ff41;--c:#00e5ff;--gold:#ffd700;--r:#ff2d55;--p:#bf5fff;
+--bg:#000d0a;--bg2:#001a10;--border:#00ff4133;--dim:#00ff4166}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--g);font-family:'Share Tech Mono',monospace;
+font-size:13px;line-height:1.6;overflow-x:hidden}
+body::before{content:'';position:fixed;top:0;left:0;right:0;bottom:0;
+background:repeating-linear-gradient(0deg,transparent,transparent 2px,
+rgba(0,255,65,.015) 2px,rgba(0,255,65,.015) 4px);pointer-events:none;z-index:9999}
+.scan{position:fixed;top:-100%;left:0;right:0;height:200px;
+background:linear-gradient(transparent,rgba(0,255,65,.04),transparent);
+animation:scan 8s linear infinite;pointer-events:none;z-index:9998}
+@keyframes scan{to{top:110%}}
+.wrap{max-width:860px;margin:0 auto;padding:20px 14px}
+.hdr{border:1px solid var(--g);padding:20px;margin-bottom:24px;
+background:var(--bg2);box-shadow:0 0 40px rgba(0,255,65,.1)}
+.t1{font-family:'Orbitron',monospace;font-size:clamp(15px,4vw,24px);font-weight:900;
+color:var(--gold);text-shadow:0 0 20px var(--gold);letter-spacing:2px;text-align:center;margin-bottom:6px}
+.t2{font-family:'Orbitron',monospace;font-size:clamp(8px,2vw,11px);color:var(--c);
+text-align:center;letter-spacing:4px;text-shadow:0 0 10px var(--c);margin-bottom:10px}
+.tag{background:rgba(0,229,255,.08);border:1px solid var(--c);color:var(--c);
+text-align:center;padding:5px 10px;font-size:10px;letter-spacing:2px}
+.sec{margin-bottom:24px;border:1px solid var(--border);background:linear-gradient(135deg,var(--bg2),var(--bg))}
+.sh{background:rgba(0,255,65,.07);border-bottom:1px solid var(--border);
+padding:9px 14px;display:flex;align-items:center;gap:10px}
+.sn{font-family:'Orbitron',monospace;font-size:10px;color:#000;
+background:var(--gold);padding:2px 7px;font-weight:700}
+.st{font-family:'Orbitron',monospace;font-size:clamp(9px,2.5vw,12px);
+font-weight:700;color:var(--gold);letter-spacing:1.5px}
+.sb{padding:14px}
+.pb{background:#000;border:1px solid var(--g);border-left:3px solid var(--gold);
+padding:12px 14px;margin:10px 0;white-space:pre-wrap;word-break:break-word;
+color:#b8ffcc;font-size:11.5px;position:relative}
+.pb::before{content:attr(data-l);position:absolute;top:-9px;left:10px;
+background:#000;color:var(--gold);font-size:10px;padding:0 5px}
+.cmd{background:#000;border-left:3px solid var(--c);padding:7px 12px;
+margin:6px 0;font-size:12px;color:var(--c)}
+.cmd::before{content:'$ ';color:var(--g)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:10px 0}
+.card{background:rgba(0,255,65,.03);border:1px solid var(--border);padding:11px}
+.ct{color:var(--c);font-family:'Orbitron',monospace;font-size:9px;
+letter-spacing:1px;margin-bottom:7px;text-shadow:0 0 8px var(--c)}
+.card ul{list-style:none}.card ul li::before{content:'▸ ';color:var(--gold)}
+.card ul li{margin:3px 0;font-size:11.5px}
+.step{display:flex;gap:10px;margin:9px 0;align-items:flex-start}
+.snum{background:var(--p);color:#000;font-family:'Orbitron',monospace;
+font-size:10px;font-weight:700;min-width:24px;height:24px;
+display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.sc{flex:1}.sti{color:var(--gold);font-size:12px;margin-bottom:3px}
+.sd{color:#aaffcc;font-size:11.5px}
+.hl{color:var(--c)}.hlg{color:var(--gold)}.hlr{color:var(--r)}.hlp{color:var(--p)}.hlw{color:#fff;font-weight:bold}
+p{margin:7px 0;font-size:12px;color:#aaffcc}
+.dv{border:none;border-top:1px solid var(--border);margin:12px 0}
+.dl{text-align:center;color:var(--dim);font-size:10px;letter-spacing:3px;margin:9px 0}
+.ftr{border:1px solid var(--border);padding:12px;text-align:center;
+margin-top:26px;color:var(--dim);font-size:11px;letter-spacing:2px}
+.gc{color:var(--gold);text-shadow:0 0 8px var(--gold)}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+.cur::after{content:'█';animation:blink 1s infinite;color:var(--g)}
+</style>
+</head>
+<body>
+<div class="scan"></div>
+<div class="wrap">
+
+<div class="hdr">
+<div class="t1">⬡ ELITE ENGINEERING CODEX ⬡</div>
+<div class="t2">GITHUB MONETIZATION · GEMINI PROMPT ENGINE · ANDROID TUI CONFIGURATOR</div>
+<div class="tag">▸ VERSION 2.0 · POST-GEMINI · MOBILE-FIRST · DEPLOYED FROM TERMUX ◂</div>
+</div>
+
+<div class="sec">
+<div class="sh"><span class="sn">PART I</span><span class="st">⚡ SUPER-ENGINEERED GITHUB MONETIZATION SYSTEM</span></div>
+<div class="sb">
+<p>This is not a tutorial. This is an <span class="gc">operational architecture</span> — a layered monetization stack engineered for developers who ship value on GitHub and want every commit to compound toward revenue.</p>
+<div class="dl">── MONETIZATION PILLARS ──</div>
+<div class="grid">
+<div class="card"><div class="ct">⬡ TIER 1 · PASSIVE</div><ul>
+<li>GitHub Sponsors (recurring)</li><li>Ko-fi / Buy Me a Coffee</li>
+<li>Open Collective tiers</li><li>Polar.sh subscriptions</li><li>Thanks.dev</li></ul></div>
+<div class="card"><div class="ct">⬡ TIER 2 · PRODUCT</div><ul>
+<li>GitHub Marketplace apps</li><li>CLI tools → SaaS upsell</li>
+<li>Premium NPM packages</li><li>Paid GitHub Actions</li><li>Template repos</li></ul></div>
+<div class="card"><div class="ct">⬡ TIER 3 · AUDIENCE</div><ul>
+<li>README-driven lead gen</li><li>Gumroad digital products</li>
+<li>Course funnels from docs</li><li>Consulting CTAs</li><li>Newsletter pipeline</li></ul></div>
+<div class="card"><div class="ct">⬡ TIER 4 · ENTERPRISE</div><ul>
+<li>Dual licensing (MIT + Commercial)</li><li>Support SLA tiers</li>
+<li>Private forks</li><li>Advanced Security upsell</li><li>Feature sponsorships</li></ul></div>
+</div>
+<div class="dl">── MASTER GEMINI MONETIZATION PROMPT ──</div>
+<div class="pb" data-l="▸ GITHUB MONETIZATION ARCHITECT PROMPT">SYSTEM ROLE: You are a GitHub Monetization Architect.
+Combine OSS ethics with product-led growth. Think in flywheels.
+
+TASK: Design a 90-day monetization sprint:
+  1. Activate passive streams within 7 days
+  2. Build freemium product tier in 30 days
+  3. Launch enterprise licensing in 90 days
+  4. Instrument README + Issues with CTAs
+  5. Automate sponsor-gated GitHub Actions
+
+OUTPUT: Sprint milestones · FUNDING.yml · Sponsor tier copy
+        Dual-license boilerplate · GH Action YAML
+        3 viral README hooks for star→sponsor conversion
+
+CONSTRAINT: No dark patterns. Honor open-source covenant.
+Monetize the value surplus, not the users.</div>
+<div class="dl">── SPONSOR TIERS ──</div>
+<div class="step"><div class="snum">T1</div><div class="sc">
+<div class="sti">/mo — SUPPORTER</div>
+<div class="sd">Name in README · Early CHANGELOG access · Discord badge. Volume play: 100 ×  = 00 MRR.</div></div></div>
+<div class="step"><div class="snum">T2</div><div class="sc">
+<div class="sti">5/mo — PRO</div>
+<div class="sd">Private repo access · Premium Actions · Priority issues · Monthly Q&A. Target: 40 × 5 = ,000 MRR.</div></div></div>
+<div class="step"><div class="snum">T3</div><div class="sc">
+<div class="sti">00/mo — ENTERPRISE</div>
+<div class="sd">Commercial license · 48hr SLA · Logo placement · Private Slack · Roadmap vote. Target: 10 × 00 = ,000 MRR.</div></div></div>
+</div></div>
+
+<div class="sec">
+<div class="sh"><span class="sn">PART II</span><span class="st">◈ POST-GEMINI PROMPT ENGINEERING FRAMEWORK</span></div>
+<div class="sb">
+<p>Post-Gemini engineering operates on <span class="hl">multi-modal context graphs</span>, not linear chains. Gemini 2.5+ processes audio, video, code, and 1M+ token contexts simultaneously.</p>
+<div class="dl">── APEX PROMPT ARCHITECTURE ──</div>
+<div class="pb" data-l="▸ GEMINI APEX PROMPT TEMPLATE">═══ IDENTITY LAYER ═══
+Role: [ELITE ENGINEER] · Domain: [SPECIFY] · Mode: PRECISE
+
+═══ CONTEXT INJECTION ═══
+Project: [NAME] | State: [CURRENT] → [DESIRED]
+Attach: codebase files, docs, URLs as needed
+
+═══ TASK SPECIFICATION ═══
+Primary: [SINGLE CLEAR GOAL]
+Sub-tasks: 1.[ATOMIC] 2.[ATOMIC] 3.[ATOMIC]
+
+═══ OUTPUT CONTRACT ═══
+Format: [JSON|Markdown|Code] · Length: [COMPREHENSIVE]
+Validation: Self-verify before output. Flag uncertainty.
+Chain-of-thought: Architecture decisions ONLY.
+
+═══ GEMINI DIRECTIVES ═══
+- Use code execution to validate ALL generated code
+- Read ENTIRE codebase before proposing changes
+- Ground responses in attached documents/URLs
+- Multimodal: extract structure → reason → respond</div>
+</div></div>
+
+<div class="sec">
+<div class="sh"><span class="sn">PART III</span><span class="st">◉ ANDROID TUI CONFIGURATOR — FULL STACK</span></div>
+<div class="sb">
+<p>A TUI on Android is not a compromise — it's a <span class="gc">power-user superweapon</span>. Termux as substrate, curated stack, your Android becomes a full post-Gemini dev terminal.</p>
+<div class="grid">
+<div class="card"><div class="ct">◉ LAYER 1 · TERMUX</div><ul>
+<li>Termux (F-Droid ONLY)</li><li>Termux:API</li>
+<li>Termux:Widget</li><li>Termux:Float</li><li>Termux:Styling</li></ul></div>
+<div class="card"><div class="ct">◉ LAYER 2 · SHELL</div><ul>
+<li>zsh + Oh My Zsh</li><li>tmux</li>
+<li>fzf · bat · eza</li><li>lazygit</li><li>ripgrep · fd</li></ul></div>
+<div class="card"><div class="ct">◉ LAYER 3 · DEV</div><ul>
+<li>Neovim + LazyVim</li><li>Node.js · Python · Go</li>
+<li>GitHub CLI (gh)</li><li>httpie · jq</li><li>llm CLI</li></ul></div>
+<div class="card"><div class="ct">◉ LAYER 4 · AI</div><ul>
+<li>aichat (multi-provider)</li><li>sgpt (shell GPT)</li>
+<li>Ollama local models</li><li>llm by Simon Willison</li><li>Gemini API via curl</li></ul></div>
+</div>
+<div class="dl">── BOOTSTRAP COMMANDS ──</div>
+<div class="cmd">pkg update && pkg upgrade -y</div>
+<div class="cmd">pkg install -y git zsh tmux neovim nodejs python gh fzf lazygit jq</div>
+<div class="cmd">pip install llm google-generativeai httpie --break-system-packages</div>
+<div class="cmd">npm install -g @google/generative-ai-cli</div>
+<div class="cmd">gh auth login && gh extension install github/gh-copilot</div>
+</div></div>
+
+<div class="sec">
+<div class="sh"><span class="sn">PART IV</span><span class="st">∞ THE INTEGRATED LOOP — ANDROID → GEMINI → GITHUB → REVENUE</span></div>
+<div class="sb">
+<p>The complete flywheel: code from Android TUI → Gemini enhances → commits via gh CLI → monetization triggers → revenue compounds. <span class="gc">Zero desktop required.</span></p>
+<div class="step"><div class="snum">01</div><div class="sc">
+<div class="sti">WRITE — Neovim on Termux with Gemini LSP</div>
+<div class="sd">Full IDE on Android. Gemini Code plugin inline completions. LazyVim handles LSP, linting, formatting.</div></div></div>
+<div class="step"><div class="snum">02</div><div class="sc">
+<div class="sti">ENHANCE — Pipe code through Gemini CLI</div>
+<div class="sd">llm CLI routes to Gemini 2.5 Pro for security audit, performance review, and monetization opportunity detection before committing.</div></div></div>
+<div class="step"><div class="snum">03</div><div class="sc">
+<div class="sti">COMMIT — lazygit + conventional commits + gh CLI</div>
+<div class="sd">Full TUI git. Conventional commits auto-generate changelogs. gh CLI handles PRs and releases without leaving terminal.</div></div></div>
+<div class="step"><div class="snum">04</div><div class="sc">
+<div class="sti">MONETIZE — GitHub Actions on push</div>
+<div class="sd">Sponsor acknowledgment, feature gating, and release notes with CTAs fire on every merge. Revenue layer always live.</div></div></div>
+<div class="step"><div class="snum">05</div><div class="sc">
+<div class="sti">SCALE — Termux:API revenue dashboard</div>
+<div class="sd">Shell script polls GitHub Sponsors API. Revenue displayed in tmux status bar. Android notification on new sponsor.</div></div></div>
+</div></div>
+
+<div class="ftr">
+<div class="gc">⬡ ELITE ENGINEERING CODEX v2.0 · DEPLOYED FROM TERMUX ⬡</div>
+<div style="margin-top:7px">TRUTH · HONOR · INTEGRITY · VALOR · PROGRESS · COLLABORATION · FREEDOM · LOYALTY</div>
+<div style="margin-top:7px;color:var(--dim)">BUILD WITH HONOR. SHIP WITH INTEGRITY. MONETIZE WITH RESPECT. <span class="cur"></span></div>
+<div style="margin-top:10px;font-size:10px">
+<a href="https://github.com/BoozeLee" style="color:var(--c);text-decoration:none">◈ github.com/BoozeLee</a>
+</div>
+</div>
+
+</div>
+</body>
+</html>

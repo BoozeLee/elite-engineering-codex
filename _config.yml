@@ -1,0 +1,3 @@
+# GitHub Pages config — bypass Jekyll, serve raw HTML
+plugins: []
+exclude: ["*.sh", "*.md", "gemini-prompt.txt"]
