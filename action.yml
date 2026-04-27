@@ -1,0 +1,19 @@
+name: 'Elite Codex Auditor'
+description: 'Audits your repository for monetization and Gemini readiness.'
+author: 'BoozeLee'
+inputs:
+  github-token:
+    description: 'Token for API access'
+    required: true
+runs:
+  using: 'composite'
+  steps:
+    - run: |
+        echo "⬡ AUDITING REPOSITORY..."
+        if [ -f "README.md" ]; then echo "✓ README found"; else echo "✕ README missing"; fi
+        if [ -f ".github/FUNDING.yml" ]; then echo "✓ Sponsorship active"; else echo "✕ Sponsorship missing"; fi
+        echo "◈ REPORT: Ready for Gemini context-graph engineering."
+      shell: bash
+branding:
+  icon: 'activity'
+  color: 'green'

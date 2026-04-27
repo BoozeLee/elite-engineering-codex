@@ -37,3 +37,23 @@ This project is dual-licensed under the [MIT License](LICENSE) and a Commercial 
 ---
 
 *“Build with honor. Ship with integrity. Monetize with respect.”* — **⬡**
+
+---
+
+## 🚀 PRODUCTS (TIER 2)
+
+### 1. [Elite Codex Template](https://github.com/BoozeLee/elite-engineering-codex/generate)
+Use this repository as a template to bootstrap your own engineering-first, monetization-ready projects.
+
+### 2. [Codex CLI Tool](./cli/codex-cli.py)
+A freemium TUI tool for managing your engineering workflow.
+- **Unlock Premium:** [Sponsor](https://github.com/sponsors/BoozeLee) to unlock advanced monetization automation.
+
+### 3. [Elite Codex Auditor (GitHub Action)](https://github.com/marketplace)
+Add our auditor to your CI/CD pipeline to ensure your projects meet elite standards. *[Publishing to Marketplace...]*
+
+---
+
+## 🏛️ ENTERPRISE (TIER 4)
+We provide custom consulting for teams looking to integrate Gemini-pro context-graphs into their proprietary workflows.
+- [Inquire for Enterprise SLA](https://BoozeLee.github.io/elite-engineering-codex/)
